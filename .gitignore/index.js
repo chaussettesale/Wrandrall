@@ -23,7 +23,7 @@ const Discord = require('discord.js')
                           })
       bot.on('message', message => {
                             if (message.content === '!helpw') {
-                            message.channel.send(' Pour me controler il faut taper l\'une des commandes suivantes:\n\n **__Catégorie Stratégie:__**\n\n**__Catégorie Fun:__**\n\n**__Catégorie RDA:__**\n\n ```!chante ``` ')
+                            message.channel.send(' Pour me controler il faut taper l\'une des commandes suivantes:\n\n**__Catégorie Stratégie:__**\n\n**__Catégorie Fun:__**\n\n**__Catégorie RDA:__**\n\n ```!chante ``` ')
                              }
                              })
 
